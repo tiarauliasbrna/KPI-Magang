@@ -28,3 +28,7 @@ Route::get('/login', function () {
 Route::get('/overallgraph', function () {
     return view('scorecard/overallgraph');
 });
+
+Route::get('/overallgraph-1', function () {
+    return view('scorecard/overallgraph');
+});
