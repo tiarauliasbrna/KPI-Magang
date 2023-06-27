@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
+Route::get('/i', function () {
+    return view('dashboard');
+});
+
 Route::get('/scorecard', function () {
     return view('scorecard/src');
 });
@@ -31,4 +35,17 @@ Route::get('/overallgraph', function () {
 
 Route::get('/overallgraph-1', function () {
     return view('scorecard/overallgraph');
+});
+Route::get('/anuall', function () {
+    return view('scorecard/anuall');
+});
+Route::get('/overall', function () {
+    return view('scorecard/overall');
+});
+Route::get('/report', function () {
+    return view('scorecard/report');
+});
+
+Route::get('/reportcard', function () {
+    return view('scorecard/reportcard');
 });
