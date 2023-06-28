@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('title')
     <ol class="breadcrumb bg-transparent mb-0">
-        <li class="breadcrumb-item"><a class="text-secondary" href="index.html">SCORECARD AND REPORT CARDS - 2023</a></li>
+        <li class="breadcrumb-item"><a class="text-secondary" href="/scorecard">Scorecards and Analysis</a></li>
+        <li aria-current="page">&nbsp;/ Overall KPI Summary Graph </li>
     </ol>
 @endsection
 @section('content')
@@ -30,19 +31,6 @@
             <!-- start: page header -->
 
             <!-- start: page toolbar -->
-            <div class="page-toolbar px-xl-4 px-sm-2 px-0 py-3">
-                <div class="container-fluid">
-                    <div class="row g-3 mb-3 align-items-center">
-                        <div class="col">
-                            <ol class="breadcrumb bg-transparent mb-0">
-                                <li class="breadcrumb-item"><a class="text-secondary" href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Analytics</li>
-                            </ol>
-                        </div>
-                    </div> <!-- .row end -->
-
-                </div>
-            </div>
             <!-- start: page body -->
             <div class="page-body px-xl-4 px-sm-2 px-0 py-lg-2 py-1 mt-0 mt-lg-3">
                 <div class="container-fluid">
@@ -71,44 +59,6 @@
                                     </div>
                                 </div>
                                 <div class="card-body">
-                                    <div class="d-flex flex-wrap flex-row align-items-center">
-                                        <div>
-                                            <div class="d-flex align-items-center">
-                                                <div class="avatar rounded no-thumbnail lift">
-                                                    <i class="fa fa-money fa-lg"></i>
-                                                </div>
-                                                <div class="flex-fill ms-3 text-truncate">
-                                                    <div>Revenue</div>
-                                                    <div><span class="h6 fw-bold">245</span> <small
-                                                            class="text-muted">Hours</small></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="ms-lg-4 ms-lg-4 ms-3">
-                                            <div class="d-flex align-items-center">
-                                                <div class="avatar rounded no-thumbnail lift">
-                                                    <i class="fa fa-money fa-lg"></i>
-                                                </div>
-                                                <div class="flex-fill ms-3 text-truncate">
-                                                    <div>Sales</div>
-                                                    <div><span class="h6 fw-bold">45</span> <small
-                                                            class="text-muted">Session</small></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-none d-sm-block ms-auto">
-                                            <div class="btn-group" role="group">
-                                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1">
-                                                <label class="btn btn-sm btn-outline-secondary" for="btnradio1">Week</label>
-                                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
-                                                <label class="btn btn-sm btn-outline-secondary"
-                                                    for="btnradio2">Month</label>
-                                                <input type="radio" class="btn-check" name="btnradio" id="btnradio3"
-                                                    checked="">
-                                                <label class="btn btn-sm btn-outline-secondary" for="btnradio3">Year</label>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div id="revenue_sales"></div>
                                 </div>
                             </div> <!-- .card end -->

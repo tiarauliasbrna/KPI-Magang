@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('title')
     <ol class="breadcrumb bg-transparent mb-0">
-        <li class="breadcrumb-item"><a class="text-secondary" href="index.html">SCORECARD AND REPORT CARDS - 2023</a></li>
+        <li class="breadcrumb-item"><a class="text-secondary" href="/scorecard">Scorecards and Analysis</a></li>
+        <li aria-current="page">&nbsp;/ Scorecard and Report Cards </li>
     </ol>
 @endsection
 @section('content')

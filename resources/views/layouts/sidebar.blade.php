@@ -3,42 +3,22 @@
     <div class="title-text d-flex align-items-center mb-4 mt-1">
         <h4 class="sidebar-title mb-0 flex-grow-1"><span class="sm-txt"></span><span>KPI Jembo</span></h4>
         <div class="dropdown morphing scale-left">
-            <a class="dropdown-toggle more-icon" href="#" role="button" data-bs-toggle="dropdown"><i
-                    class="fa fa-ellipsis-h"></i></a>
-            <ul class="dropdown-menu shadow border-0 p-2 mt-2" data-bs-popper="none">
-                <li class="fw-bold px-2">Quick Actions</li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="landing/index.html" aria-current="page">Landing page</a></li>
-                <li><a class="dropdown-item" href="inventory/index.html">Inventory</a></li>
-                <li><a class="dropdown-item" href="ecommerce/index.html">eCommerce</a></li>
-                <li><a class="dropdown-item" href="hrms/index.html">HRMS</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="account-invoices.html">Invoices List</a></li>
-                <li><a class="dropdown-item" href="account-create-invoices.html">Create Invoices</a></li>
-            </ul>
         </div>
     </div>
     <!-- sidebar: Create new -->
-
     <!-- sidebar: menu list -->
     <div class="main-menu flex-grow-1">
         <ul class="menu-list">
             <li class="collapsed">
-                <a class="m-link active" data-bs-toggle="collapse" data-bs-target="#my_dashboard" href="#">
+                <a class="m-link active" href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                        <path class="var(--secondary-color)" fill-rule="evenodd"
+                        <path class="fill-secondary" fill-rule="evenodd"
                             d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
                     </svg>
                     <span class="ms-2">Dashboard</span>
-                    <span class="arrow fa fa-angle-right ms-auto text-end"></span>
                 </a>
-                <!-- Menu: Sub menu ul -->
             </li>
             <li class="collapsed">
                 <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu_dashboard" href="#">
@@ -49,14 +29,13 @@
                             d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z" />
                     </svg>
                     <span class="ms-2">Scorecards and Analysis</span>
-                    <span class="arrow fa fa-angle-right ms-auto text-end"></span>
                 </a>
                 <!-- Menu: Sub menu ul -->
                 <ul class="sub-menu collapse" id="menu_dashboard">
                     <li><a class="ms-link" href="/scorecard">Scorecard and Report Cards</a></li>
-                    <li><a class="ms-link" href="crypto/index.html">Annual Performance Graph</a></li>
-                    <li><a class="ms-link" href="ecommerce/index.html">Overall KPI Summary Table</a></li>
-                    <li><a class="ms-link" href="event/index.html">Overall KPI Summary Graph</a></li>
+                    <li><a class="ms-link" href="/annual">Annual Performance Graph</a></li>
+                    <li><a class="ms-link" href="/overalltable">Overall KPI Summary Table</a></li>
+                    <li><a class="ms-link" href="/overallgraph">Overall KPI Summary Graph</a></li>
                 </ul>
             </li>
             <li class="collapsed">
@@ -67,10 +46,13 @@
                         <path class="fill-secondary" d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                     </svg>
                     <span class="ms-2">KPI and Analysis</span>
-                    <span class="arrow fa fa-angle-right ms-auto text-end"></span>
                 </a>
                 <!-- Menu: Sub menu ul -->
-
+                <ul class="sub-menu collapse" id="menu-Applications">
+                    <li><a class="ms-link" href="definition">KPI Definition</a></li>
+                    <li><a class="ms-link" href="app-calendar-tui.html">Graph</a></li>
+                    <li><a class="ms-link" href="app-email.html">Report Cards</a></li>
+                </ul>
             </li>
             <li class="collapsed">
                 <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu_pages" href="#">
@@ -83,10 +65,7 @@
                             d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
                     </svg>
                     <span class="ms-2">Recap</span>
-                    <span class="arrow fa fa-angle-right ms-auto text-end"></span>
                 </a>
-                <!-- Menu: Sub menu ul -->
-
             </li>
             <li class="collapsed">
                 <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Account" href="#">
@@ -97,10 +76,8 @@
                             d="M8.5 11C8.5 11 8 11 8 10.5C8 10 8.5 8.5 11 8.5C13.5 8.5 14 10 14 10.5C14 11 13.5 11 13.5 11H8.5ZM11 8C11.3978 8 11.7794 7.84196 12.0607 7.56066C12.342 7.27936 12.5 6.89782 12.5 6.5C12.5 6.10218 12.342 5.72064 12.0607 5.43934C11.7794 5.15804 11.3978 5 11 5C10.6022 5 10.2206 5.15804 9.93934 5.43934C9.65804 5.72064 9.5 6.10218 9.5 6.5C9.5 6.89782 9.65804 7.27936 9.93934 7.56066C10.2206 7.84196 10.6022 8 11 8V8Z" />
                     </svg>
                     <span class="ms-2">Scorecards Structure</span>
-                    <span class="arrow fa fa-angle-right ms-auto text-end"></span>
                 </a>
                 <!-- Menu: Sub menu ul -->
-
             </li>
             <li class="collapsed">
                 <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Authentication" href="#">
@@ -111,10 +88,8 @@
                             d="M8 5.38462C8.21217 5.38462 8.41566 5.46566 8.56569 5.60992C8.71571 5.75418 8.8 5.94983 8.8 6.15385V6.53846H7.2V6.15385C7.2 5.94983 7.28429 5.75418 7.43431 5.60992C7.58434 5.46566 7.78783 5.38462 8 5.38462ZM9.2 6.53846V6.15385C9.2 5.84783 9.07357 5.55434 8.84853 5.33795C8.62348 5.12157 8.31826 5 8 5C7.68174 5 7.37652 5.12157 7.15147 5.33795C6.92643 5.55434 6.8 5.84783 6.8 6.15385V6.53846C6.58783 6.53846 6.38434 6.61951 6.23431 6.76376C6.08429 6.90802 6 7.10368 6 7.30769V9.23077C6 9.43478 6.08429 9.63044 6.23431 9.7747C6.38434 9.91896 6.58783 10 6.8 10H9.2C9.41217 10 9.61566 9.91896 9.76569 9.7747C9.91571 9.63044 10 9.43478 10 9.23077V7.30769C10 7.10368 9.91571 6.90802 9.76569 6.76376C9.61566 6.61951 9.41217 6.53846 9.2 6.53846Z" />
                     </svg>
                     <span class="ms-2">Scoring Method</span>
-                    <span class="arrow fa fa-angle-right ms-auto text-end"></span>
                 </a>
                 <!-- Menu: Sub menu ul -->
-
             </li>
             <li class="collapsed">
                 <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-level0" href="#">
@@ -129,58 +104,12 @@
                             d="M12.4393 10.4393C12.158 10.7206 12 11.1022 12 11.5V12.5C12 12.8978 12.158 13.2794 12.4393 13.5607C12.7206 13.842 13.1022 14 13.5 14H14.5C14.8978 14 15.2794 13.842 15.5607 13.5607C15.842 13.2794 16 12.8978 16 12.5V11.5C16 11.1022 15.842 10.7206 15.5607 10.4393C15.2794 10.158 14.8978 10 14.5 10H13.5C13.1022 10 12.7206 10.158 12.4393 10.4393Z" />
                     </svg>
                     <span class="ms-2">Strategy Articulation Map</span>
-                    <span class="arrow fa fa-angle-right ms-auto text-end"></span>
                 </a>
                 <!-- Menu: Sub menu ul -->
-
             </li>
         </ul>
-
     </div>
-    <ul class="menu-list nav navbar-nav flex-row text-center menu-footer-link">
-        <li class="nav-item flex-fill p-2">
-            <a class="d-inline-block w-100 color-400" href="#" data-bs-toggle="modal"
-                data-bs-target="#ScheduleModal" title="My Schedule">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" viewBox="0 0 16 16">
-                    <path class="fill-secondary"
-                        d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-                    <path
-                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
-                    <path class="fill-secondary"
-                        d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z" />
-                </svg>
-            </a>
-        </li>
-        <li class="nav-item flex-fill p-2">
-            <a class="d-inline-block w-100 color-400" href="#" data-bs-toggle="modal"
-                data-bs-target="#MynotesModal" title="My notes">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" viewBox="0 0 16 16">
-                    <path class="fill-secondary"
-                        d="M1.5 0A1.5 1.5 0 0 0 0 1.5V13a1 1 0 0 0 1 1V1.5a.5.5 0 0 1 .5-.5H14a1 1 0 0 0-1-1H1.5z" />
-                    <path
-                        d="M3.5 2A1.5 1.5 0 0 0 2 3.5v11A1.5 1.5 0 0 0 3.5 16h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 16 9.586V3.5A1.5 1.5 0 0 0 14.5 2h-11zM3 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V9h-4.5A1.5 1.5 0 0 0 9 10.5V15H3.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V10.5a.5.5 0 0 1 .5-.5h4.293L10 14.793z" />
-                </svg>
-            </a>
-        </li>
-        <li class="nav-item flex-fill p-2">
-            <a class="d-inline-block w-100 color-400" href="#" data-bs-toggle="modal"
-                data-bs-target="#RecentChat">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" viewBox="0 0 16 16">
-                    <path
-                        d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                    <path class="fill-secondary"
-                        d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
-                </svg>
-            </a>
-        </li>
-        <li class="nav-item flex-fill p-2">
-            <a class="d-inline-block w-100 color-400" href="auth-signin.html" title="sign-out">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M7.5 1v7h1V1h-1z" />
-                    <path class="fill-secondary"
-                        d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z" />
-                </svg>
-            </a>
-        </li>
-    </ul>
+    <!-- sidebar: footer link -->
+    <!-- sidebar: footer link -->
+
 </div>

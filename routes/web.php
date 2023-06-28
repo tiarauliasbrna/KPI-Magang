@@ -21,14 +21,18 @@ Route::get('/scorecard', function () {
     return view('scorecard/src');
 });
 
-Route::get('/login', function () {
-    return view('layouts/login');
+Route::get('/annual', function () {
+    return view('scorecard/annual');
 });
 
 Route::get('/overallgraph', function () {
     return view('scorecard/overallgraph');
 });
 
-Route::get('/overallgraph-1', function () {
-    return view('scorecard/overallgraph');
+Route::get('/definition', function () {
+    return view('analysis/definition');
+});
+
+Route::get('/overalltable', function () {
+    return view('scorecard/overalltable');
 });

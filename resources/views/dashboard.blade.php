@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title')
     <ol class="breadcrumb bg-transparent mb-0">
-        <li class="breadcrumb-item"><a class="text-secondary" href="index.html">Dashboard</a></li>
+        <li class="breadcrumb-item"><a class="text-secondary" href="/">Dashboard</a></li>
     </ol>
 @endsection
 
@@ -19,8 +19,7 @@
                                 d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                         </svg>
                         <div class="mb-2 text-uppercase">TOTAL EMPLOYEE</div>
-                        <div><span class="h4">380</span> <span class="small text-muted"><i class="fa fa-level-up"></i>
-                                13%</span></div>
+                        <div><span class="h4">380</span></div>
                         <small class="text-muted">Analytics for last week</small>
                     </div>
                     <div class="progress" style="height: 4px;">
@@ -40,8 +39,7 @@
                                 d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z" />
                         </svg>
                         <div class="mb-2 text-uppercase">NEW EMPLOYEE</div>
-                        <div><span class="h4">24</span> <span class="small text-muted"><i class="fa fa-level-up"></i>
-                                13%</span></div>
+                        <div><span class="h4">24</span></div>
                         <small class="text-muted">Analytics for last week</small>
                     </div>
                     <div class="progress" style="height: 4px;">
