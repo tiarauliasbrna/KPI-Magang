@@ -36,16 +36,23 @@ Route::get('/overallgraph', function () {
 Route::get('/overallgraph-1', function () {
     return view('scorecard/overallgraph');
 });
+
 Route::get('/anuall', function () {
     return view('scorecard/anuall');
 });
+
 Route::get('/overall', function () {
     return view('scorecard/overall');
 });
+
 Route::get('/report', function () {
     return view('scorecard/report');
 });
 
 Route::get('/reportcard', function () {
     return view('scorecard/reportcard');
+});
+
+Route::get('/definition1', function () {
+    return view('kpianalysis/definition1');
 });

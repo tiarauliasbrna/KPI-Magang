@@ -70,7 +70,11 @@
                     <span class="arrow fa fa-angle-right ms-auto text-end"></span>
                 </a>
                 <!-- Menu: Sub menu ul -->
-
+                <ul class="sub-menu collapse" id="menu_dashboard">
+                    <li><a class="ms-link" href="/scorecard">KPI Definition</a></li>
+                    <li><a class="ms-link" href="crypto/index.html">Graph</a></li>
+                    <li><a class="ms-link" href="ecommerce/index.html">Report Cards</a></li>
+                </ul>
             </li>
             <li class="collapsed">
                 <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu_pages" href="#">
