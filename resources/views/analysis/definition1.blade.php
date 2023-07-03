@@ -95,14 +95,11 @@
                 </li>
             </ol>
         </div>
-    </div>
-
-    <div class="col task-complete">
         <br>
         <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6">
             <div class="card">
                 <div class="card-header">
-                    <h6 class="card-title m-0">KPI Definition -1</h6>
+                    <h6 class="card-title m-0">KPI Definition-1</h6>
                     <!-- widgest: Card more action icon -->
                     <div class="dropdown morphing scale-left">
                         <a href="#" class="card-fullscreen" data-bs-toggle="tooltip" title="Card Full-Screen"><i
@@ -122,124 +119,270 @@
                 <div class="card-body">
                     <!-- Progress -->
                 </div>
-                <div class="table-responsive border-top">
-                    <table class="table card-table table-nowrap mb-0">
-                        <tbody>
-                            <tr>
-                                <td>MONTH</td>
-                                <td>DEFINING RANGE</td>
-                                <td><span>MONTHLY ACTUAL</span></td>
-                                <td></td>
-                                <td><span>YEAR TO DATE ACTUAL</span></td>
-                                <td><span>WEIGHT</span></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>L2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TX
-                                </td>
-                                <td><span></span></td>
-                                <td></td>
-                                <td><span></span></td>
-                                <td><span></span></td>
-                            </tr>
-                            <tr>
-                                <td>January</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>February</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>March</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>April</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>May</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>June</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>July</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>August</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>September</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>October</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>November</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                            <tr>
-                                <td>December</td>
-                                <td>90</td>
-                                <td><span>100</span></td>
-                                <td>100</td>
-                                <td><span>100</span></td>
-                                <td><span>30%</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table class="table align-middle table-bordered mb-0 custom-table-2">
+                            <thead>
+                                <tr>
+                                    <th>MONTH</th>
+                                    <th colspan="3">DEFINING RANGE</th>
+                                    <th colspan="3">MONTHLY ACTUAL</th>
+                                    <th>YEARS TO DATE ACTUAL</th>
+                                    <th>WEIGHT</th>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th>&emsp;&emsp;<center>L2</center>
+                                    </th>
+                                    <th>&emsp;&emsp; <center>T2</center>
+                                    </th>
+                                    <th>&emsp;&emsp; <center>L</center>
+                                    </th>
+                                    <th>&emsp;&emsp; <center>M</center>
+                                    </th>
+                                    <th>&emsp;&emsp; <center>T</center>
+                                    </th>
+                                    <th>&emsp;&emsp; <center>X</center>
+                                    </th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="w120">Januari</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">Februari</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">Maret</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">April</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">Mei</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">Juni</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">Juli</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">Agustus</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">September</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">Oktober</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">November</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>30%</center>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="w120">Desember</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-danger">90</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center><strong class="text-success">100</strong></center>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <center>100</center>
+                                    </td>
+                                    <td>
+                                        <center>
+                                            <center>30%</center>
+                                        </center>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

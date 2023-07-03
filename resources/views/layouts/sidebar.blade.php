@@ -48,10 +48,17 @@
                     <span class="ms-2">KPI and Analysis</span>
                 </a>
                 <!-- Menu: Sub menu ul -->
+<<<<<<< HEAD
                 <ul class="sub-menu collapse" id="menu-Applications">
                     <li><a class="ms-link" href="definition">KPI Definition</a></li>
                     <li><a class="ms-link" href="app-calendar-tui.html">Graph</a></li>
                     <li><a class="ms-link" href="app-email.html">Report Cards</a></li>
+=======
+                <ul class="sub-menu collapse" id="menu_dashboard">
+                    <li><a class="ms-link" href="/scorecard">KPI Definition</a></li>
+                    <li><a class="ms-link" href="crypto/index.html">Graph</a></li>
+                    <li><a class="ms-link" href="ecommerce/index.html">Report Cards</a></li>
+>>>>>>> 7e16988e5c7cb66302b612c4328bbf2d34ddb318
                 </ul>
             </li>
             <li class="collapsed">

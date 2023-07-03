@@ -36,9 +36,11 @@ Route::get('/definition', function () {
 Route::get('/overalltable', function () {
     return view('scorecard/overalltable');
 });
+
 Route::get('/anuall', function () {
     return view('scorecard/anuall');
 });
+
 Route::get('/overall', function () {
     return view('scorecard/overall');
 });
@@ -52,5 +54,10 @@ Route::get('/reportcard', function () {
 });
 
 Route::get('/definition1', function () {
+<<<<<<< HEAD
     return view('analysis/definition1');
 });
+=======
+    return view('kpianalysis/definition1');
+});
+>>>>>>> 7e16988e5c7cb66302b612c4328bbf2d34ddb318
