@@ -13,7 +13,7 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body d-flex align-items-center">
-                            <div class="avatar rounded-circle no-thumbnail bg-light">1</div>
+                            <div class="avatar rounded-circle no-thumbnail bg-light" href="/definition1">1</div>
                             <div class="flex-fill ms-3 text-truncate">
                                 <div class="small text-uppercase">Key Progress Indicator</div>
                             </div>
