@@ -48,10 +48,17 @@
                     <span class="ms-2">KPI and Analysis</span>
                 </a>
                 <!-- Menu: Sub menu ul -->
+<<<<<<< Updated upstream
                 <ul class="sub-menu collapse" id="menu-kpi-analisys">
                     <li><a class="ms-link" href="/scorecard">KPI Definition</a></li>
                     <li><a class="ms-link" href="javascript:void(0)">Graph</a></li>
                     <li><a class="ms-link" href="javascript:void(0)">Report Cards</a></li>
+=======
+                <ul class="sub-menu collapse" id="menu_dashboard">
+                    <li><a class="ms-link" href="/scorecard">KPI Definition</a></li>
+                    <li><a class="ms-link" href="crypto/index.html">Graph</a></li>
+                    <li><a class="ms-link" href="ecommerce/index.html">Report Cards</a></li>
+>>>>>>> Stashed changes
                 </ul>
             </li>
             <li class="collapsed">

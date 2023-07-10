@@ -54,5 +54,5 @@ Route::get('/reportcard', function () {
 });
 
 Route::get('/definition1', function () {
-    return view('analysis/definition1');
+    return view('kpianalysis/definition1');
 });
