@@ -39,7 +39,7 @@
                 </ul>
             </li>
             <li class="collapsed">
-                <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Applications" href="#">
+                <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-kpi-analisys" href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor" viewBox="0 0 16 16">
                         <path
                             d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z" />
@@ -48,17 +48,10 @@
                     <span class="ms-2">KPI and Analysis</span>
                 </a>
                 <!-- Menu: Sub menu ul -->
-<<<<<<< HEAD
-                <ul class="sub-menu collapse" id="menu-Applications">
-                    <li><a class="ms-link" href="definition">KPI Definition</a></li>
-                    <li><a class="ms-link" href="app-calendar-tui.html">Graph</a></li>
-                    <li><a class="ms-link" href="app-email.html">Report Cards</a></li>
-=======
-                <ul class="sub-menu collapse" id="menu_dashboard">
+                <ul class="sub-menu collapse" id="menu-kpi-analisys">
                     <li><a class="ms-link" href="/scorecard">KPI Definition</a></li>
-                    <li><a class="ms-link" href="crypto/index.html">Graph</a></li>
-                    <li><a class="ms-link" href="ecommerce/index.html">Report Cards</a></li>
->>>>>>> 7e16988e5c7cb66302b612c4328bbf2d34ddb318
+                    <li><a class="ms-link" href="javascript:void(0)">Graph</a></li>
+                    <li><a class="ms-link" href="javascript:void(0)">Report Cards</a></li>
                 </ul>
             </li>
             <li class="collapsed">
