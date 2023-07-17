@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::post('/log-in', [AuthController::class,'authenticate'])->name('login');
+Route::post('/log-in', [AuthController::class,'authenticate'])->name('log-in');
 
 Route::get('/scorecard', function () {
     return view('scorecard/src');

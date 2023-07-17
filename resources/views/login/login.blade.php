@@ -56,7 +56,7 @@
                     <div class="col-lg-6 d-flex justify-content-center align-items-center">
                         <div class="card shadow-sm w-100 p-4 p-md-5" style="max-width: 32rem;">
                             <!-- Form -->
-                            <form class="row g-3">
+                            <form class="row g-3" action="{{route('log-in')}}" method="POST">
                                 <div class="col-12 text-center mb-5">
                                     <h1>Sign in</h1>
                                     <span class="text-muted"></span>
@@ -69,7 +69,6 @@
                                     </a>
                                     <span class="dividers text-muted mt-4">OR</span>
                                 </div>
-                                <form action="{{ route('login') }}" method="POST">
                                 @csrf
                                     <div class="col-12">
                                         <div class="mb-2">
@@ -90,10 +89,10 @@
                                         </div>
                                     </div>
                                     <div class="col-12 text-center mt-4">
-                                        <button class="btn btn-lg btn-block btn-dark lift text-uppercase"
-                                            type="submit">SIGN IN</button>
+                                        <button class="btn btn-lg btn-block btn-dark lift text-uppercase" type="submit">
+                                            SIGN IN
+                                        </button>
                                     </div>
-                                </form>
                             </form>
                             <!-- End Form -->
                         </div>

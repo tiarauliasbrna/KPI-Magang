@@ -52,11 +52,7 @@
                     <li><a class="ms-link" href="/scorecard">KPI Definition</a></li>
                     <li><a class="ms-link" href="javascript:void(0)">Graph</a></li>
                     <li><a class="ms-link" href="javascript:void(0)">Report Cards</a></li>
-                    <ul class="sub-menu collapse" id="menu-Applications">
-                        <li><a class="ms-link" href="definition">KPI Definition</a></li>
-                        <li><a class="ms-link" href="analysisgraph">Graph</a></li>
-                        <li><a class="ms-link" href="analysisrc">Report Cards</a></li>
-                    </ul>
+                </ul>
             </li>
             <li class="collapsed">
                 <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu_pages" href="#">
