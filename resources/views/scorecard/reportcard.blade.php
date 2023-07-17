@@ -175,12 +175,6 @@
           <li class="dd-item card p-2">
             <div class="dd-handle fw-bold">This Month</div>
             <span>-</span>
-            <div class="d-flex justify-content-between align-items-center mt-2">
-              <div class="project-members">
-                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Avatar"><img class="avatar xs rounded" src="{{ asset('app') }}/img/xs/avatar7.jpg" alt="friend"> </a>
-                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Avatar"><img class="avatar xs rounded" src="{{ asset('app') }}/img/xs/avatar9.jpg" alt="friend"> </a>
-              </div>
-            </div>
           </li>
           <li class="dd-item card p-2">
             <div class="dd-handle fw-bold">Variance</div>
@@ -233,12 +227,6 @@
           <li class="dd-item card p-2">
             <div class="dd-handle fw-bold">This Month</div>
             <span>-</span>
-            <div class="d-flex justify-content-between align-items-center mt-2">
-              <div class="project-members">
-                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Avatar"><img class="avatar xs rounded" src="{{ asset('app') }}/img/xs/avatar7.jpg" alt="friend"> </a>
-                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Avatar"><img class="avatar xs rounded" src="{{ asset('app') }}/img/xs/avatar9.jpg" alt="friend"> </a>
-              </div>
-            </div>
           </li>
           <li class="dd-item card p-2">
             <div class="dd-handle fw-bold">Variance</div>

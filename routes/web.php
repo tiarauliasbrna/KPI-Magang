@@ -57,6 +57,7 @@ Route::get('/reportcard', function () {
 });
 
 Route::get('/definition1', function () {
+<<<<<<< Updated upstream
     return view('analysis/definition1');
 });
 
@@ -77,3 +78,15 @@ Route::get('/login', function () {
 });
 
 
+=======
+    return view('kpianalysis/definition1');
+});
+
+Route::get('/reportcards', function () {
+    return view('kpianalysis/reportcards');
+});
+
+Route::get('/reportcards1', function () {
+    return view('kpianalysis/reportcards1');
+});
+>>>>>>> Stashed changes
