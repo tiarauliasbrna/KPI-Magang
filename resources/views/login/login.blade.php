@@ -69,40 +69,31 @@
                                     </a>
                                     <span class="dividers text-muted mt-4">OR</span>
                                 </div>
-                                <div class="col-12">
-                                    <div class="mb-2">
-                                        <label class="form-label">Email address</label>
-                                        <input type="email" class="form-control form-control-lg"
-                                            placeholder="name@example.com">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="mb-2">
-                                        <div class="form-label">
-                                            <span class="d-flex justify-content-between align-items-center"> Password <a
-                                                    class="text-primary" href="auth-password-reset.html">Forgot
-                                                    Password?</a>
-                                            </span>
+                                <form action="{{ route('login') }}" method="POST">
+                                @csrf
+                                    <div class="col-12">
+                                        <div class="mb-2">
+                                            <label class="form-label">Email address</label>
+                                            <input type="email" name="email" class="form-control form-control-lg"
+                                                placeholder="name@example.com">
                                         </div>
-                                        <input id="password" class="form-control form-control-lg" type="password"
-                                            maxlength="10" placeholder="Enter the password">
                                     </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value=""
-                                            id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault"> Remember me </label>
+                                    <div class="col-12">
+                                        <div class="mb-2">
+                                            <div class="form-label">
+                                                <span class="d-flex justify-content-between align-items-center">
+                                                    Password
+                                                </span>
+                                            </div>
+                                            <input id="password" class="form-control form-control-lg" type="password"
+                                                name="password" maxlength="10" placeholder="Enter the password">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-12 text-center mt-4">
-                                    <a class="btn btn-lg btn-block btn-dark lift text-uppercase" href="index.html"
-                                        title="">SIGN IN</a>
-                                </div>
-                                <div class="col-12 text-center mt-4">
-                                    <span class="text-muted">Don't have an account yet? <a href="auth-signup.html">Sign
-                                            up here</a></span>
-                                </div>
+                                    <div class="col-12 text-center mt-4">
+                                        <button class="btn btn-lg btn-block btn-dark lift text-uppercase"
+                                            type="submit">SIGN IN</button>
+                                    </div>
+                                </form>
                             </form>
                             <!-- End Form -->
                         </div>

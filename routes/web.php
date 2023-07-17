@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard');
 });
+
+Route::post('/log-in', [AuthController::class,'authenticate'])->name('login');
 
 Route::get('/scorecard', function () {
     return view('scorecard/src');
@@ -54,5 +57,23 @@ Route::get('/reportcard', function () {
 });
 
 Route::get('/definition1', function () {
-    return view('kpianalysis/definition1');
+    return view('analysis/definition1');
 });
+
+Route::get('/graph', function () {
+    return view('analysis/graph');
+});
+
+Route::get('/analysisgraph', function () {
+    return view('analysis/analysisgraph');
+});
+
+Route::get('/analysisrc', function () {
+    return view('analysis/analysisrc');
+});
+
+Route::get('/login', function () {
+    return view('login/login');
+});
+
+
