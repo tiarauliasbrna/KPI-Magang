@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from www.wrraptheme.com/templates/luno/auth-signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Jun 2023 07:33:58 GMT -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -12,7 +9,7 @@
     <meta name="keyword"
         content="LUNO, Bootstrap 5, ReactJs, Angular, Laravel, VueJs, ASP .Net, Admin Dashboard, Admin Theme, HRMS, Projects, Hospital Admin, CRM Admin, Events, Fitness, Music, Inventory, Job Portal">
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"> <!-- Favicon-->
-    <title>:: LUNO :: Sign In</title>
+    <title>Jembo Login</title>
     <!-- Application vendor css url -->
     <!-- project css file  -->
     <link rel="stylesheet" href="assets/css/luno-style.css">
